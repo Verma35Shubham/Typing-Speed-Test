@@ -1,0 +1,147 @@
+/* typingbox-container
+timer-container
+time
+time-option
+text-container
+text
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(9, 2, 20, 0.979);
+}
+.header-container{
+    margin-top: 40px;
+}
+.header-logo > h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: rgb(238, 236, 236);
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 4%;
+}
+
+.header-user-logo {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container {
+    bottom: 20%;
+    left: 43%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 47px;
+    align-items: center;
+    justify-content: center;
+}
+#reset-btn {
+    width: 2em;
+    height: 2em;
+    fill: rgb(246, 247, 245);
+}
+#esc-btn {
+    background: rgb(254, 253, 255);
+    padding: 5px;
+    margin: 0.2rem;
+    color: black;
+    border: none;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.esc span {
+    font-size: 20px;
+    color: white;
+}
+.text-length span {
+    font-size: 20px;
+    color: white;
+}
+.text-length button {
+    background: white;
+    padding: 5px;
+    margin: 0.2rem;
+    color: black;
+    border: none;
+    width: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.social-theme {
+    width: 1000px;
+    position: fixed;
+    bottom: 6%;
+    left: 17%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social-media {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+.theame-box {
+    border: 0.15px solid black;
+    padding: 5px;
+}
+.css-vubbuv {
+    user-select: none;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    fill: white;
+    flex-shrink: 0;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    font-size: 1.5rem;
+  }
+.timer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13px;
+}
+.timer-container > * {
+    font-size: 24px;
+    color: white;
+}
+.time-option > * {
+    font-size: 24px;
+    color: white;
+}
+.time-option {
+    display: flex;
+    gap: 5%;
+}
+.time-option > button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.text-container > .text {
+    width: 50vw;
+    font-size: 24px;
+    color: rgb(126, 126, 129);
+    line-height: 3rem;
+    font-family: monospace;
+}
